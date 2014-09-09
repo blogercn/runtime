@@ -37,7 +37,8 @@ public class MainActivity extends Activity {
         Button btn_cat = (Button) findViewById(R.id.button2);  
         btn_cat.setOnClickListener(new OnClickListener() {  
             public void onClick(View v) {                 
-                do_exec("cat /proc/version");  
+                //do_exec("cat /proc/version");  
+                do_exec("pwd ");
             }             
         });          
         Button btn_rm = (Button) findViewById(R.id.button3);  
